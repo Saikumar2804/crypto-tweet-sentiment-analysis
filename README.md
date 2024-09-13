@@ -67,7 +67,6 @@ This project uses sentiment analysis of tweets to predict cryptocurrency market 
 | `/api/login`    | POST   | Logs in an existing user       |
 | `/predict`      | POST   | Receives a tweet and returns its sentiment analysis |
 
-<<<<<<< HEAD
 ## Data
 
 **`Tweets Dataset`**: Contains tweets related to cryptocurrency along with metadata such as tweet timestamp and user information. The dataset is preprocessed using NLTK to clean and tokenize the text data.
