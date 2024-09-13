@@ -17,9 +17,14 @@ This project uses sentiment analysis of tweets to predict cryptocurrency market 
 
 - **Frontend**: React, Bootstrap
 - **Backend**: Flask, REST API
+<<<<<<< HEAD
 - **Machine Learning**: Python, TensorFlow, Keras (LSTM and GRU models), NLTK, NumPy, Pandas, pymongo
 - **Database**: MongoDB
 - **Tools**: Jupyter, Git & GitHub
+=======
+- **Machine Learning**: TensorFlow, Keras (LSTM and GRU models), NLTK, NumPy, Pandas, pymongo
+- **Database**: MongoDB
+>>>>>>> 764ca644f1217004d1587ebc563005f2de96288a
 - **Model**: Pre-trained `lstm_gru_cryptocurrency_tweet_model.h5`
 - **HTTP Client**: Axios
 
@@ -65,15 +70,22 @@ This project uses sentiment analysis of tweets to predict cryptocurrency market 
 | `/api/login`    | POST   | Logs in an existing user       |
 | `/predict`      | POST   | Receives a tweet and returns its sentiment analysis |
 
+<<<<<<< HEAD
 ## Data
 
 **`Tweets Dataset`**: Contains tweets related to cryptocurrency along with metadata such as tweet timestamp and user information. The dataset is preprocessed using NLTK to clean and tokenize the text data.
 
+=======
+>>>>>>> 764ca644f1217004d1587ebc563005f2de96288a
 ## Model Details
 
 - The **LSTM-GRU hybrid model** processes each tweet to predict the sentiment (positive, negative, or neutral).
 - The model was trained on a large dataset of cryptocurrency-related tweets using TensorFlow and Keras.
+<<<<<<< HEAD
 - **`lstm_gru_cryptocurrency_tweet_model.h5`** is the pre-trained model file that the backend uses for predictions.
 
 
 
+=======
+- **`lstm_gru_cryptocurrency_tweet_model.h5`** is the pre-trained model file that the backend uses for predictions.
+>>>>>>> 764ca644f1217004d1587ebc563005f2de96288a
